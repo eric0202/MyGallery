@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="0dp"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_photo_thumb"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+</androidx.cardview.widget.CardView>
